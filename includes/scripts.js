@@ -19,3 +19,12 @@ function whatName() {
 	document.getElementById("nameOutput").innerHTML ="<p>" + "Is your name really " + userName + "?" + "</p>";
 }
 
+function printSomething() {
+	console.log("Hey, I printed something - happy now?");
+}
+
+function countBeer() {
+	for (i = 99; i >= 0; i--) {
+    console.log(i + " bottles of root beer on the wall, " + i + " bottles of root beer...take one down, pass it around " + i + " bottles of root beer on the wall." + "<br />")
+	}
+}
