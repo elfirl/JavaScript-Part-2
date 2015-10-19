@@ -3,6 +3,7 @@
 	background-color: #FF3333;
 	float: left;
 	height: 100px;
+	margin-right: 10px;
 }
 
 .middle-content {
@@ -10,6 +11,7 @@
 	background-color: #66CC33;
 	float: left;
 	height: 100px;
+	margin-right: 10px;
 }
 
 .right-content {
