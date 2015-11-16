@@ -7,8 +7,7 @@ function whatNumber() {
 		alert("Your number is larger than 20, please pick a number between 1 and 20.");
 	} else if(userNumber > 10 && userNumber < 20) {
 		alert("You picked " + userNumber + " which is more than 10!");
-	}
-	else {
+	} else {
 		alert("You didn't pick a number. Please pick a number between 1 and 20.");
 	}
 }
@@ -24,7 +23,7 @@ function printSomething() {
 }
 
 function countBeer() {
-	for (i = 99; i >= 0; i--) {
-    console.log(i + " bottles of root beer on the wall, " + i + " bottles of root beer...take one down, pass it around " + i + " bottles of root beer on the wall." + "<br />")
+	for (i = 99; i > 0; i--) {
+    console.log(i + " bottles of root beer on the wall, " + i + " bottles of root beer...take one down, pass it around " + (i - 1) + " bottles of root beer on the wall." + "<br />")
 	}
 }
